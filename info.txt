@@ -1,0 +1,20 @@
+GIT : Initial Repo Added by following below steps
+
+Create Repositort on GitHub.com
+
+echo "# ng4-EventSchedular" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/jaspreetnabha/ng4-EventSchedular.git
+git push -u origin master // Erro came , ran git status, got some red files, ran git add -A (added the untracked files), git status showed all green, git commit, git push, git showed command to run
+
+--------------------------------------------------------------------------------
+
+CLI :
+
+ng new AppName
+ng g c componemtName
+ng g s ServiceNAme
+ng g m ModuleName
+ng serve // to run the server, this will show the port number where app gonna run
